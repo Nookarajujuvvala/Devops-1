@@ -18,3 +18,21 @@ git add *                     - To stage All Files
 git add *.txt                 - To Stage All Text Files
 
 git commit -m ' message '     - To Commit Files In Staging
+
+git show COMMIT-ID            - To Find files and content added to that COMMIT-ID
+
+git log                       - To Find Commit Log History
+
+git log --oneline             - To Get Online Commit Log History
+
+git remote add origin https://github.com/prudhvi1247/Devops.git    - To add Remote github repository  
+
+ git push origin master       - To Push  files from local to remote
+ git push                     - To Push  files from local to remote
+
+ git pull Origin master       - To Pull Files From Remote github repository to local
+ git pull                     - To Pull Files From Remote github repository to local
+
+git clone https://github.com/prudhvi1247/Devops.git            - To clone Remote Repository To local
+
+git diff                      - To See The Differences
