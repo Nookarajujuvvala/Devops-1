@@ -1,1 +1,20 @@
-code .            - To Open Visual Studio code
+git config --global user.name "Indhukuri Prudhvi Raju"
+git config -- global user.email "prudhvi1247@icloud.com"
+
+cat .gitconfig                - To Find User Details of local repository
+
+code .                        - To Open Visual Studio code
+
+git init                      - To Convert local folder into git repository
+
+ls                            - To Find List of Files
+
+git status                    - To find git status
+
+git add filename1 filename2   - To Stage File 1 and File 2
+
+git add *                     - To stage All Files
+
+git add *.txt                 - To Stage All Text Files
+
+git commit -m ' message '     - To Commit Files In Staging
