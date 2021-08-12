@@ -23,7 +23,7 @@ git show COMMIT-ID            - To Find files and content added to that COMMIT-I
 
 git log                       - To Find Commit Log History
 
-git log --oneline             - To Get Online Commit Log History
+git log --oneline             - To Get One line Commit Log History
 
 git remote add origin https://github.com/prudhvi1247/Devops.git    - To add Remote github repository  
 
