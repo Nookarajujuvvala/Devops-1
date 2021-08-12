@@ -1,0 +1,8 @@
+Git Terminal Shortcuts
+
+press "i" (i for insert)
+write your merge message
+press "esc" (escape)
+write ":wq" (write & quit)
+then press enter                  
+ the way you remember this is that "i" is for "insert", "esc" is the exit the insertion, and ":wq" is just "write" and "quit" 
