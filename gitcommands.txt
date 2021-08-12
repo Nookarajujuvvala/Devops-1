@@ -5,6 +5,8 @@ cat ~/.gitconfig                - To Find User Details of local repository
 
 code .                        - To Open Visual Studio code
 
+clear                         - To clear Git Bash Interface
+
 git init                      - To Convert local folder into git repository
 
 ls                            - To Find List of Files
@@ -62,5 +64,5 @@ git reset --hard COMMIT-ID    - To Remove local commit and permanently discard c
 
 git reset --mixed COMMIT-ID    - To Remove local commit and keep changes
 
+ 
 git revert
-clear 1
