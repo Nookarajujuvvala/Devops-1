@@ -37,3 +37,29 @@ git push --set-upstream origin master      - To Push  files from local to remote
 git clone https://github.com/prudhvi1247/Devops.git            - To clone Remote Repository To local
 
 git diff                      - To See The Differences
+
+git fetch                     - To Get Remote Commits to local without merge
+
+git diff HEAD FETCH_HEAD      -  To find Differences between local and remote before merging
+
+git merge                     - To Merge Remote Commits & local Commits
+
+git restore *                 - To Discard All Changes
+
+git restore filename.txt      - To Discard changes in specific file
+
+git restore --staged filename.txt         - To unstage specific file
+
+git restore --staged *        - To unstage all Files
+
+git reset                     - To Remove Commits From The History
+
+git reset COMMIT-ID           - To Remove all commits above given COMMIT-ID
+
+git reset --soft COMMIT-ID    - To Remove local commit and keep changes in Staging
+
+git reset --hard COMMIT-ID    - To Remove local commit and permanently discard changes 
+
+git reset --mixed COMMIT-ID    - To Remove local commit and keep changes
+
+git revert
