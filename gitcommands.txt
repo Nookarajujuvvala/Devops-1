@@ -63,3 +63,4 @@ git reset --hard COMMIT-ID    - To Remove local commit and permanently discard c
 git reset --mixed COMMIT-ID    - To Remove local commit and keep changes
 
 git revert
+clear 1
