@@ -46,6 +46,8 @@ git diff HEAD FETCH_HEAD      -  To find Differences between local and remote be
 
 git merge                     - To Merge Remote Commits & local Commits
 
+:wq                           - To Write and quit git editor terminal
+
 git restore *                 - To Discard All Changes
 
 git restore filename.txt      - To Discard changes in specific file
@@ -64,5 +66,30 @@ git reset --hard COMMIT-ID    - To Remove local commit and permanently discard c
 
 git reset --mixed COMMIT-ID    - To Remove local commit and keep changes
 
- 
-git revert
+
+
+git revert COMMIT-ID                - To Undo local and Remote Commits & This will not Remove Commit From History
+
+git show COMMIT-ID                  - To find Details  of all files present in commit
+
+git show COMMIT-ID --name-only      - To find only names in specific commit ID
+
+git show COMMIT-ID --name-only --help - To get Help 
+
+git checkout master                 - To point or Navigate to master
+
+git checkout BRANCHNAME             - To point or Navigate to specific BRANCHNAME
+
+git checkout COMMIT-ID              - To point or Navigate to The specific COMMIT
+
+git checkout COMMIT-ID FILENAME     - To point or Navigate to specific COMMIT without making any changes in working area files
+
+git branch BRANCHNAME               - To Create a new branch with name as BRANCHNAME
+
+git push origin BRANCHNAME          - To Push Branch to Remote
+
+git branch -d BRANCHNAME            - To Delete Branch in local
+
+git push -d origin BRANCHNAME       - To Delete Branch in Remote
+
+
