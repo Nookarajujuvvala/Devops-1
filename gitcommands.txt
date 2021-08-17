@@ -92,4 +92,13 @@ git branch -d BRANCHNAME            - To Delete Branch in local
 
 git push -d origin BRANCHNAME       - To Delete Branch in Remote
 
+git stash                           - To move changes in working and index area, and puts them into a stack(stash area).
+
+git stash save                      - To save changes    (to stash changes)
+
+git stash pop                       - To unstash changes and remove an entry from stash area
+
+git stash apply                     - To  unstash changes and keep an entry in stash area
+
+git cherry-pick                     - To
 
