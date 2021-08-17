@@ -19,6 +19,8 @@ git add *                     - To stage All Files
 
 git add *.txt                 - To Stage All Text Files
 
+git rm FILENAME               - To remove Specified FILE
+
 git commit -m ' message '     - To Commit Files In Staging
 
 git show COMMIT-ID            - To Find files and content added to that COMMIT-ID
