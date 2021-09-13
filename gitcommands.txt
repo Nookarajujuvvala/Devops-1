@@ -29,7 +29,11 @@ git log                       - To Find Commit Log History
 
 git log --oneline             - To Get One line Commit Log History
 
-git remote add origin https://github.com/prudhvi1247/Devops.git    - To add Remote github repository  
+git remote add origin https://github.com/prudhvi1247/Devops.git    - To add Remote github repository
+
+git remote rm origin          - To remove Remote github repository
+
+
 
 git push --set-upstream origin master      - To Push  files from local to remote
  git push origin master       - To Push  files from local to remote
