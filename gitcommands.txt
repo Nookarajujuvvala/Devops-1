@@ -106,5 +106,7 @@ git stash pop                       - To unstash changes and remove an entry fro
 
 git stash apply                     - To  unstash changes and keep an entry in stash area
 
-git cherry-pick                     - To
+git cherry-pick                     - To pick specific commit
+
+git rev-parse Head                  - To get Latest commit
 
